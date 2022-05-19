@@ -38,3 +38,4 @@ class DetailsUser(APIView):
             return Response({'status': 200,'message' : 'account verified.','data' : request.data})
         return Response({'status': False,'message' : 'Invalid User.','data' : request.data['email']})           
         
+#email api
